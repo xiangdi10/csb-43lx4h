@@ -1,0 +1,195 @@
+@import "_reset.css";
+/*  Color palette
+    -----------------------
+    color       HEX code  RGB code
+    -------------------------------------
+    red:      	#960001	  rgb(150,0,1)
+    yellow:     #e2e55f	  rgb(226,229,95)
+    green:      #96c25f	  rgb(150,194,95)
+    blue:       #5582c6	  rgb(85,130,198)
+    purple: 	  #79519f	  rgb(121,81,159) 
+
+    fonts
+    -----------------------
+    headings:   Cabin
+    body:       Roboto
+
+    font-sizes:
+    -----------------------
+    h1:   70px
+    h2:   36px
+    h3    24px
+    body: 17px (all other text)
+
+    breakpoints
+    -----------------------
+    desktop: 1200px
+    
+    max-width of the content is 1400px
+*/
+
+/* Add all of your styles here */
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  /* max-height: 100%; */
+}
+
+.top-image {
+  display: flex;
+  background-size: cover;
+  background-image: url(/images/toystory4_wallpaper.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 600px;
+}
+
+.top {
+  margin-top: -100px;
+  display: flex;
+}
+
+.title {
+  margin-left: 10px;
+  padding: 0 10px 0 10px;
+  margin-top: 130px;
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 1400px;
+  height: auto;
+}
+
+.characters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie-poster {
+}
+
+.list {
+  display: flex;
+  padding: 0;
+  list-style: none;
+  /* box-sizing: border-box;
+  padding: 10px 20px;
+  margin: 0 10px; */
+}
+
+.list li {
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin: 0 10px;
+  flex: 0 1 50%;
+}
+
+.character-image {
+  float: left;
+  padding: 0 10px 10px 0;
+}
+
+.woody {
+  margin-top: 50px;
+  border: 1px solid yellow;
+  background: yellow;
+  color: red;
+  padding: 30px 30px 30px 120px;
+}
+
+.comments {
+  margin-top: 40px;
+}
+
+.comment-p {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+li {
+  width: 700px;
+  list-style: none;
+}
+
+body {
+  background-color: rgb(85, 130, 198);
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Cabin;
+  color: rgb(150, 0, 1);
+  font-weight: bold;
+}
+
+h1 {
+  background: white;
+  font-size: 70px;
+  width: 336px;
+  height: 80px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-family: Roboto;
+  font-size: 17px;
+  line-height: 24px;
+  color: white;
+}
+
+hr {
+  border-top: 1px solid yellow;
+}
+
+a {
+  color: yellow;
+  text-decoration: none;
+}
+
+ul {
+  margin-left: -10px;
+}
+
+b {
+  font-weight: bold;
+}
+
+#submit {
+  background-color: purple;
+  border: none;
+  color: white;
+  padding: 6px 134px;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: green;
+}
+
+.rate_msg {
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  font-family: Roboto;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
